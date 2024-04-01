@@ -1,0 +1,64 @@
+.navbar__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navbar__top__links {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+
+.navbar__link {
+    text-decoration: none;
+    color: black;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.47999998927116394px;
+    text-align: left;
+}
+
+.navbar__top__contact {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+.navbar__top__contact a {
+    text-decoration: none;
+    font-family: Segoe UI;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    letter-spacing: 0.47999998927116394px;
+    text-align: left;
+    color: black;
+}
+
+
+
+
+.navbar__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__bottom__users {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.navbar__bottom__users div {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}

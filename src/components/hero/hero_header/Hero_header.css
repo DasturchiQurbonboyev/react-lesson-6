@@ -1,0 +1,107 @@
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 250px 0 230px;
+}
+
+.hero__left {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.hero__left__oginal {
+    display: flex;
+    gap: 5px;
+}
+
+.hero__left__oginal label {
+    color: #F53E32;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.47999998927116394px;
+    text-align: left;
+}
+
+.hero__left__oginal p {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.47999998927116394px;
+    text-align: left;
+    color: black;
+}
+
+.hero__left h1 {
+    font-family: Arial;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 68px;
+    letter-spacing: 0.47999998927116394px;
+    text-align: left;
+    color: black;
+}
+
+.hero__left p {
+    max-width: 550px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26.25px;
+    letter-spacing: 0.47999998927116394px;
+    text-align: left;
+    color: #7A7A7A;
+}
+
+.img__tg {
+    margin-top: 22px;
+    margin-left: 25px;
+    position: absolute;
+    margin-right: -25px;
+}
+
+
+.hero__left__input input {
+    padding: 22px 58px;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+}
+
+.input__btn {
+    padding: 22px 40px;
+    border-radius: 50px;
+    background: #3BB77E;
+    margin-left: -25px;
+    color: white;
+    border: none;
+}
+
+
+
+
+
+.hero_reight a {
+    margin-left: 15px;
+    text-decoration: none;
+    padding: 22px;
+    background: white;
+    border: none;
+    border-radius: 30px;
+    font-family: Quicksand;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: right;
+    color: #3BB77E;
+}
+
+.hero_reight a:hover {
+    color: black;
+}
+
+.hero_reight a img {
+    margin-right: 8px;
+}
